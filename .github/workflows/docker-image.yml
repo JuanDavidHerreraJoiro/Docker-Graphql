@@ -31,7 +31,7 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker push juandavidherrera/graphql-actions:1.0.2 .
+        docker push juandavidherrera/graphql-actions:1.0.2
       
       
     
