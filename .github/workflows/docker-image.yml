@@ -28,10 +28,12 @@ jobs:
     - name: Build Docker Image
       run: |
         docker build -t juandavidherrera/graphql-actions:1.0.2 .
+        docker build -t juandavidherrera/graphql-actions .
 
     - name: Push Docker Image
       run: |
         docker push juandavidherrera/graphql-actions:1.0.2
+        docker push juandavidherrera/graphql-actions
       
       
     
